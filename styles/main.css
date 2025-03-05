@@ -1,0 +1,57 @@
+
+/* all input, under each date  */
+.input {
+	text-align: right;
+}
+/* header in topbar: */
+.header {
+	font-weight: bold;
+	/*text-align: center;*/
+	margin-top: 3px;
+}
+/* title in paragraph; within input */
+.title {
+	font-weight: bold;
+}
+/* text in paragraph, under title; within input */
+.subtitle {
+	color: dimgray;
+}
+
+/* Afbeelding over volledige breedte */
+img {
+    max-width:80%;
+}
+
+/* Header verwijderen van kaart */
+.i4ewOd-pzNkMb-haAclf {
+	display: none;
+}
+#map-canvas > *:nth-child(1) {
+    display: none;
+}
+
+#mapcanvas > * {
+    display: none;
+}
+
+/* Non-mobile, grid */
+  @media only screen and (min-width: 640px) {
+	/* all input, under each date  */
+	.input {
+		text-align: left;
+	}
+  }
+
+/* Content eerst verbergen, en openklappen */
+.content {
+    display: none;
+}
+
+.topheader {
+    cursor: pointer;
+}
+
+.topheader:hover {
+    background-color: #e4bd32;
+}
